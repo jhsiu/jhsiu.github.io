@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>"Jeffrey's Website!!!"</title>
+        <link href="tomcat.css" rel="stylesheet" type="text/css" />
+    </head>
 
-<h1>My First Heading</h1>
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="curved container">
+                <span id="nav-home"><a href="/index.jsp">Home</a></span>
+                <span id="nav-config"><a href="${tomcatDocUrl}config/">Configuration</a></span>
+                <span id="nav-examples"><a href="${tomcatExamplesUrl}">Examples</a></span>
+                <span id="nav-lists"><a href="${tomcatUrl}lists.html">Mailing Lists</a></span>
+                <span id="nav-help"><a href="${tomcatUrl}findhelp.html">Find Help</a></span>
+                <br class="separator" />
+            </div>
+            <div id>
+                <h1></h1>
+            </div>
 
-<p>My first paragraph.</p>
+            <div id="middle" class="curved container">
+                <h3>Check Out Jeffrey's Website</h3>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="${tomcatDocUrl}setup.html">About Me</a></p>
+                        <p><a href="${tomcatDocUrl}setup.html">About Me</a></p>
+                        <p><a href="${tomcatDocUrl}setup.html">About Me</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            
+    </body>
 
-</body>
 </html>
